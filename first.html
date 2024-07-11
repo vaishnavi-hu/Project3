@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+let studentName = "Mr. Ratan";
+let rollNumber = 4645;
+let totalMarks = 206;
+let average = "90%";
+let grade = 'A';
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('studentInfo').innerHTML = `
+        <p>Student Name: ${studentName}</p>
+        <p>Roll Number: ${rollNumber}</p>
+        <p>Total Marks: ${totalMarks}</p>
+        <p>Average: ${average}</p>
+        <p>Grade: ${grade}</p>
+    `;
+});
+</script>
+</head>
+<body>
+    <div id="studentInfo"></div>
+</body>
+</html>
